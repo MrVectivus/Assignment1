@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--DTD Template, bonus tags I have added include:
+date: the date for the origination of a game
+author: has attributes for either creator or brand of game or both
+creator: attribute for author
+brand: attribute for author
+playerLimit: estimate on max amount of players for a given game
+-->
+
+<!DOCTYPE game [
+<!ELEMENT game (name, description)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (date, author+, playerLimit*, subject, gradeLvl, searchTag*, cost?, equipment+, review*, picture+, url)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT author ((creator | brand)+)> 
+<!ELEMENT creator (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT playerLimit (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT gradeLvl (#PCDATA)>
+<!ELEMENT searchTag (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT equipment (equipmentName, addCost)>
+<!ELEMENT equipmentName (#PCDATA)>
+<!ELEMENT addCost (#PCDATA)>
+<!ELEMENT review (reviewDescription, reviewScore)>
+<!ELEMENT reviewDescription (#PCDATA)>
+<!ELEMENT reviewScore (#PCDATA)>
+<!ELEMENT picture (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+]>
+
+<game>
+    <name>
+
+    </name>
+    <description>
+        <date>
+
+        </date>
+        <author>
+            <creator></creator>
+            <brand></brand>
+        </author>
+        <playerLimit>
+
+        </playerLimit>
+        <subject>
+
+        </subject>
+        <gradeLvl>
+
+        </gradeLvl>
+        <searchTag>
+
+        </searchTag>
+        <cost>
+
+        </cost>
+        <equipment>
+            <equipmentName></equipmentName>
+            <addCost></addCost>
+        </equipment>
+        <review>
+            <reviewDescription></reviewDescription>
+            <reviewScore></reviewScore>
+        </review>
+        <picture>
+
+        </picture>
+        <url>
+
+        </url>
+    </description>
+</game>
