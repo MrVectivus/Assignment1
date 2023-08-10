@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE gameList [
+<!ELEMENT gameList (game+)>
+<!ELEMENT game (name, description)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (date, author+, playerLimit*, subject, gradeLvl, searchTag*, cost?, equipment+, review*, picture+, url)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT author ((creator | brand)+)> 
+<!ELEMENT creator (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT playerLimit (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT gradeLvl (#PCDATA)>
+<!ELEMENT searchTag (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT equipment (equipmentName, addCost)>
+<!ELEMENT equipmentName (#PCDATA)>
+<!ELEMENT addCost (#PCDATA)>
+<!ELEMENT review (reviewDescription, reviewScore)>
+<!ELEMENT reviewDescription (#PCDATA)>
+<!ELEMENT reviewScore (#PCDATA)>
+<!ELEMENT picture (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ENTITY Star "★">
+<!ENTITY Year "Yr">
+<!ENTITY Kieran "God Web Developer Himself">
+]>
+
+<gameList>
+    <game>
+        <name>Face Punch!</name>
+        <description>
+            <date>19/8/1995</date>
+            <author>
+                <creator>Mike Tyson</creator>
+            </author>
+            <playerLimit>2</playerLimit>
+            <subject>PE</subject>
+            <gradeLvl>Pre-school</gradeLvl>
+            <searchTag>Punch</searchTag>
+            <cost>Possible teeth</cost>
+            <equipment>
+                <equipmentName>Boxing gloves</equipmentName>
+                <addCost>$35</addCost>
+            </equipment>
+            <review>
+                <reviewDescription>Super fun game! Helped me relieve a lot of stress when I played with my friend Billy - Fred</reviewDescription>
+                <reviewScore>4.5 Star</reviewScore>
+            </review>
+            <review>
+                <reviewDescription>Somebody please take me to the hospital - Billy</reviewDescription>
+                <reviewScore>1 Star</reviewScore>
+            </review>
+            <picture>FacePunch.jpg</picture>
+            <url></url>
+        </description>
+    </game>
+
+    <game>
+        <name>Handball</name>
+        <description>
+            <date>1/1/1</date>
+            <author>
+                <creator>Unknown</creator>
+            </author>
+            <playerLimit>2 Minimum</playerLimit>
+            <subject>Recess</subject>
+            <gradeLvl>Year 5</gradeLvl>
+            <searchTag>Handball</searchTag>
+            <equipment>
+                <equipmentName>Ball</equipmentName>
+                <addCost>$3</addCost>
+            </equipment>
+            <review>
+                <reviewDescription>Mate, this is the greatest game on God's green earth - Tommy, Year 5 student</reviewDescription>
+                <reviewScore>5 Star</reviewScore>
+            </review>
+            <picture>Handball.jpg</picture>
+            <url>https://en.wikipedia.org/wiki/Handball_(schoolyard_game)</url>
+        </description>
+    </game>
+
+    <game>
+        <name></name>
+        <description>
+            <date></date>
+            <author>
+                <creator></creator>
+                <brand></brand>
+            </author>
+            <playerLimit></playerLimit>
+            <subject></subject>
+            <gradeLvl></gradeLvl>
+            <searchTag></searchTag>
+            <cost></cost>
+            <equipment>
+                <equipmentName></equipmentName>
+                <addCost></addCost>
+            </equipment>
+            <review>
+                <reviewDescription></reviewDescription>
+                <reviewScore></reviewScore>
+            </review>
+            <picture></picture>
+            <url></url>
+        </description>
+    </game>
+</gameList>
