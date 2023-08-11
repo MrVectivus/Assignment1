@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Title: VideoGames.xml
+Author: Colby Robins
+Student Number: c3430421
+Date: 11/08/2023 (DD/MM/YY)
+
+This is the video games category of games, it includes information for the following games:
+Type Racer
+Rocksmith
+Minesweeper
+-->
+
+<!DOCTYPE gameList [
+<!ELEMENT gameList (game+)>
+<!ELEMENT game (name, description)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (date, author+, playerLimit*, subject, gradeLvl, searchTag*, cost?, equipment+, review*, picture+, url)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT author ((creator | brand)+)> 
+<!ELEMENT creator (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT playerLimit (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT gradeLvl (#PCDATA)>
+<!ELEMENT searchTag (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT equipment (equipmentName, addCost)>
+<!ELEMENT equipmentName (#PCDATA)>
+<!ELEMENT addCost (#PCDATA)>
+<!ELEMENT review (reviewDescription, reviewScore)>
+<!ELEMENT reviewDescription (#PCDATA)>
+<!ELEMENT reviewScore (#PCDATA)>
+<!ELEMENT picture (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ENTITY Star "★">
+<!ENTITY Year "Yr">
+<!ENTITY Kieran "God Web Developer Himself">
+]>
+
+<gameList>
+    <game>
+        <name>Type Racer</name>
+        <description>
+            <date>2008</date>
+            <author>
+                <creator>Alex Epshteyn</creator>
+                <brand>typeracer</brand>
+            </author>
+            <playerLimit>10</playerLimit>
+            <subject>Computers</subject>
+            <gradeLvl>Year 2</gradeLvl>
+            <searchTag>type</searchTag>
+            <cost>Free</cost>
+            <equipment>
+                <equipmentName>Computer</equipmentName>
+                <addCost>$50-$3000</addCost>
+            </equipment>
+            <review>
+                <reviewDescription>Helped me learn to type faster, would recommend! - John</reviewDescription>
+                <reviewScore>5 Star</reviewScore>
+            </review>
+            <picture>TypeRacer.jpg</picture>
+            <url>https://play.typeracer.com/</url>
+        </description>
+    </game>
+
+    <game>
+        <name>Rocksmith</name>
+        <description>
+            <date>2011</date>
+            <author>
+                <creator>Paul Cross</creator>
+                <brand>Ubisoft</brand>
+            </author>
+            <playerLimit>1</playerLimit>
+            <subject>Music</subject>
+            <gradeLvl>Year 1</gradeLvl>
+            <searchTag>rocksmith</searchTag>
+            <cost>29.99</cost>
+            <equipment>
+                <equipmentName>Computer</equipmentName>
+                <addCost>50-3000</addCost>
+            </equipment>
+            <equipment>
+                <equipmentName>Guitar</equipmentName>
+                <addCost>50-3000</addCost>
+            </equipment>
+            <equipment>
+                <equipmentName>Rocksmith guitar cable</equipmentName>
+                <addCost>39</addCost>
+            </equipment>
+            <review>
+                <reviewDescription>Taught me to play the basics on guitar, I'm trying to learn seven nation army now - Eddie</reviewDescription>
+                <reviewScore>5 Star</reviewScore>
+            </review>
+            <picture>Rocksmith.jpg</picture>
+            <url>https://store.steampowered.com/app/221680/Rocksmith_2014_Edition__Remastered/</url>
+        </description>
+    </game>
+
+    <game>
+        <name>Mine Sweeper</name>
+        <description>
+            <date>1989</date>
+            <author>
+                <brand>Microsoft</brand>
+            </author>
+            <playerLimit>1</playerLimit>
+            <subject>Maths</subject>
+            <gradeLvl>Year 4</gradeLvl>
+            <searchTag>mine</searchTag>
+            <cost>Free</cost>
+            <equipment>
+                <equipmentName>Computer</equipmentName>
+                <addCost>50-3000</addCost>
+            </equipment>
+            <review>
+                <reviewDescription>If I land on one more mine I swear... - David</reviewDescription>
+                <reviewScore>2.5 Star</reviewScore>
+            </review>
+            <review>
+                <reviewDescription>I finally finished the easy difficulty, dont worry guys! - David</reviewDescription>
+                <reviewScore>5 Star</reviewScore>
+            </review>
+            <picture>MineSweeper.jpg</picture>
+            <url>https://minesweeperonline.com/#</url>
+        </description>
+    </game>
+</gameList>

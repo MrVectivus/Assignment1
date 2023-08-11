@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Title: Sports.xml
+Author: Colby Robins
+Student Number: c3430421
+Date: 11/08/2023 (DD/MM/YY)
+
+This is the sports category of games, it includes information for the following games:
+Face Punch!
+Handball
+Ultimate Frisbee
+-->
+
 <!DOCTYPE gameList [
 <!ELEMENT gameList (game+)>
 <!ELEMENT game (name, description)>
@@ -67,6 +80,7 @@
             <subject>Recess</subject>
             <gradeLvl>Year 5</gradeLvl>
             <searchTag>Handball</searchTag>
+            <cost>Free</cost>
             <equipment>
                 <equipmentName>Ball</equipmentName>
                 <addCost>$3</addCost>
@@ -81,28 +95,31 @@
     </game>
 
     <game>
-        <name></name>
+        <name>Ultimate Frisbee</name>
         <description>
-            <date></date>
+            <date>1968</date>
             <author>
-                <creator></creator>
-                <brand></brand>
+                <creator>Joel Silver</creator>
             </author>
-            <playerLimit></playerLimit>
-            <subject></subject>
-            <gradeLvl></gradeLvl>
-            <searchTag></searchTag>
-            <cost></cost>
+            <playerLimit>5-7</playerLimit>
+            <subject>PE</subject>
+            <gradeLvl>Year 2</gradeLvl>
+            <searchTag>Ultimate</searchTag>
+            <cost>$60</cost>
             <equipment>
-                <equipmentName></equipmentName>
-                <addCost></addCost>
+                <equipmentName>Net</equipmentName>
+                <addCost>$40</addCost>
+            </equipment>
+            <equipment>
+                <equipmentName>Frisbee</equipmentName>
+                <addCost>$20</addCost>
             </equipment>
             <review>
-                <reviewDescription></reviewDescription>
-                <reviewScore></reviewScore>
+                <reviewDescription>This game is rubbish for real - George</reviewDescription>
+                <reviewScore>2.5 Star</reviewScore>
             </review>
-            <picture></picture>
-            <url></url>
+            <picture>UltimateFrisbee.jpg</picture>
+            <url>https://en.wikipedia.org/wiki/Ultimate_(sport)</url>
         </description>
     </game>
 </gameList>

@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Title: Template.xml
+Author: Colby Robins
+Student Number: c3430421
+Date: 10/08/2023 (DD/MM/YY)
+
+DTD Template, bonuses I have added include:
+date: the date for the origination of a game
+author: has attributes for either creator or brand of game or both
+creator: attribute for author
+brand: attribute for author
+playerLimit: estimate on max amount of players for a given game
+-->
+
 <!DOCTYPE gameList [
 <!ELEMENT gameList (game+)>
 <!ELEMENT game (name, description)>
