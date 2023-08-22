@@ -64,7 +64,7 @@ Ultimate Frisbee
                 <reviewDescription>Somebody please take me to the hospital - Billy</reviewDescription>
                 <reviewScore>1 Star</reviewScore>
             </review>
-            <picture>FacePunch.jpg</picture>
+            <picture>LearningLadder/Images/FacePunch.jpg</picture>
             <url></url>
         </description>
     </game>
@@ -89,7 +89,7 @@ Ultimate Frisbee
                 <reviewDescription>Mate, this is the greatest game on God's green earth - Tommy, Year 5 student</reviewDescription>
                 <reviewScore>5 Star</reviewScore>
             </review>
-            <picture>Handball.jpg</picture>
+            <picture>LearningLadder/Images/Handball.jpg</picture>
             <url>https://en.wikipedia.org/wiki/Handball_(schoolyard_game)</url>
         </description>
     </game>
@@ -118,7 +118,7 @@ Ultimate Frisbee
                 <reviewDescription>This game is rubbish for real - George</reviewDescription>
                 <reviewScore>2.5 Star</reviewScore>
             </review>
-            <picture>UltimateFrisbee.jpg</picture>
+            <picture>LearningLadder/Images/UltimateFrisbee.jpg</picture>
             <url>https://en.wikipedia.org/wiki/Ultimate_(sport)</url>
         </description>
     </game>

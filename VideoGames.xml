@@ -61,7 +61,7 @@ Minesweeper
                 <reviewDescription>Helped me learn to type faster, would recommend! - John</reviewDescription>
                 <reviewScore>5 Star</reviewScore>
             </review>
-            <picture>TypeRacer.jpg</picture>
+            <picture>LearningLadder/Images/TypeRacer.jpg</picture>
             <url>https://play.typeracer.com/</url>
         </description>
     </game>
@@ -95,7 +95,7 @@ Minesweeper
                 <reviewDescription>Taught me to play the basics on guitar, I'm trying to learn seven nation army now - Eddie</reviewDescription>
                 <reviewScore>5 Star</reviewScore>
             </review>
-            <picture>Rocksmith.jpg</picture>
+            <picture>LearningLadder/Images/Rocksmith.jpg</picture>
             <url>https://store.steampowered.com/app/221680/Rocksmith_2014_Edition__Remastered/</url>
         </description>
     </game>
@@ -124,7 +124,7 @@ Minesweeper
                 <reviewDescription>I finally finished the easy difficulty, dont worry guys! - David</reviewDescription>
                 <reviewScore>5 Star</reviewScore>
             </review>
-            <picture>MineSweeper.jpg</picture>
+            <picture>LearningLadder/Images/MineSweeper.jpg</picture>
             <url>https://minesweeperonline.com/#</url>
         </description>
     </game>
