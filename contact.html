@@ -3,9 +3,39 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Learning Ladder | Contact us</title>
     </head>
     <body>
-        
+        <header>
+            <h1>Learning Ladder</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms and Conditions</a>
+        </nav>
+        <h2>Contact us</h2>
+        <div>
+            <p>Pass on a message to our team! We have staff available around the clock in order to reply to you as soon as possible.</p>
+        </div>
+        <div>
+            <h3>Submit a ticket</h3>
+            <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="get">
+            Name: <input type="text" name="name" required><br>
+            Email: <input type="text" name="email" required><br>
+            Subject: <input type="text" name="subject" required><br>
+            Message: <input type="text" name="message" required><br>
+            Is this form urgent?<br>
+            <input type="radio" name="urgency" id="Yes" required>
+            <label for="Yes">Yes</label><br>
+            <input type="radio" name="urgency" id="No" required>
+            <label for="No">No</label><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+            </form>
+        </div>
     </body>
 </html>
