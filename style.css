@@ -1,0 +1,57 @@
+body{
+    margin-left: 1cm;
+    font-family:fantasy;
+    font-style: normal;
+    font-size: 20px;
+    background-image: url("Images/backgroundImage.png");
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+}
+
+img{
+    float:left
+}
+
+nav{
+    text-align: center;
+    color: black;
+    background-color: rgb(106, 106, 241);
+    hover {font-size: 110%;}
+    border: 0;
+    border-radius: 10px;
+    border-width: 8px;
+    border-style:groove;
+}
+
+span{
+    margin-left: 20px
+}
+
+a:link{
+    color: black
+}
+
+a{
+    color: black;
+    font-size: 30px;
+}
+a:hover{
+    font-size: 33px;
+    color: rgb(191, 191, 238);
+}
+a:active{
+    color:antiquewhite;
+}
+a:visited{
+    color:chocolate;
+}
+
+footer{
+    text-align: right;
+}
